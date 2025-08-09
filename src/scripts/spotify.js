@@ -1,5 +1,5 @@
-const clientId = '047225108acd4384966c7d41689c66a6'; // Reemplaza con tu Client ID
-const redirectUri = 'http://localhost:5500/music-player-app/src/index.html'; // Ejemplo si usas Live Server
+const clientId = '708f3288c5d849948098b9a90df44967'; // Reemplaza con tu Client ID
+const redirectUri = 'https://lllll-11.github.io/tralalerotralala/'; // Ejemplo si usas Live Server
 const scopes = 'user-read-private playlist-read-private streaming';
 
 function authenticateUser() {
