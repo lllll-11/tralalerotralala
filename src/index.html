@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Music Player</h1>
+        <button id="login-button">Connect to Spotify</button>
+    </header>
+    <main>
+        <div id="playlistContainer">
+            <h2>Your Playlists</h2>
+            <ul id="playlists"></ul>
+        </div>
+        <div id="playerControls">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+            <button id="previous">Previous</button>
+        </div>
+    </main>
+    <script src="scripts/spotify.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
